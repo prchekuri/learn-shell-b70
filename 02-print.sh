@@ -16,3 +16,6 @@ echo -e "\e[33mHELLO\e[0m"
 echo -e "\e[34mHELLO\e[0m"
 echo -e "\e[35mHELLO\e[0m"
 echo -e "\e[36mHELLO\e[0m"
+
+#getting env variable
+echo a = $a
