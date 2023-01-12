@@ -6,9 +6,12 @@ class=Devops
 echo "The trainer is " $trainer
 echo "Trainer teaches " ${class}
 
-DATE=2023-01-12
-#DATE=$(date +%F)
+#DATE=2023-01-12
+DATE=$(date +%F)
 echo Hey, Today Date is $DATE
 
 ADD=$((2+3))
 echo ADD 2+3 - $ADD
+
+#Variable declared in command line.trying to call from script
+echo a - $a
