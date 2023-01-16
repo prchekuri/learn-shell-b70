@@ -1,5 +1,4 @@
 a=11
-var=mylocalvar
 
 if [ $a -eq 10 ]
   then
