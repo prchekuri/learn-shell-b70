@@ -1,4 +1,4 @@
-echo "Following values are from Script"
+echo "Following values are from Script that is from command line"
 echo "0 - $0"
 echo "1 - $1"
 echo "2 - $2"
