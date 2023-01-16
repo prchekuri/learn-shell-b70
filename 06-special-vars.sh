@@ -1,3 +1,4 @@
+source 04-if.sh
 echo "Following values are from Script"
 echo "0 - $0"
 echo "1 - $1"
@@ -14,7 +15,10 @@ example(){
   echo "* - $*"
   echo "@ - $@"
   echo "# - $#"
+  echo var from if script - $var
 }
 
 example 35 12
+
+
 
