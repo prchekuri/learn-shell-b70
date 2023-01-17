@@ -17,5 +17,8 @@ echo -e "\e[34mHELLO\e[0m"
 echo -e "\e[35mHELLO\e[0m"
 echo -e "\e[36mHELLO\e[0m"
 
+# https://misc.flogisoft.com/bash/tip_colors_and_formatting
+
 #getting env variable
 echo a = $a
+echo -e "Line1\nLine2"
